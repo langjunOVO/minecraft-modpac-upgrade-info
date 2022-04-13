@@ -1,0 +1,78 @@
+{
+	"versionName": "1.0.0",        
+	"versionCode": 20,             
+	"versionFormat": "%versionName%",    
+	"sponsors": [{                
+			"category": "gold",
+	        "displayName": "sponsors.test",        
+			"titleFormat": ["GOLD", "BOLD"],       
+			"sponsorFormat": ["GOLD"],
+			"sponsors": [{
+					"name": "TCreopargh",
+					"uuid": "2d06868c-6d9b-433a-a356-1a7993b62b8d"          
+				},
+				{
+					"name": "Notch"
+				},
+				"Dinnerbone"       
+			]
+		},
+        {
+            "category": "silver",
+            "displayName": "langjunOVO",
+            "titleFormat": ["SILVER", "BOLD"],
+            "sponsorFormat": ["SILVER"],
+            "sponsors": [{
+                    "name": "langjunOVO"
+                },
+                {
+                    "name": "langjunOVO"
+                },
+                "作者"
+            ]
+        }
+	],
+	"sponsorMessage": ["", {  
+		"text": "感谢赞助！!",
+		"color": "gold"
+	}, {
+		"text": "\n"
+	}, {
+		"text": "如果支持我们请联系我们！",
+		"color": "red",
+		"bold": true,
+		"underlined": true,
+		"clickEvent": {
+			"action": "open_url",
+			"value": "http://patreon.tcreopargh.xyz/"
+		}
+	}],
+	"changelogs": {
+		"1.1.0": [
+            "1.0.0更新提示",
+			"增加模组并且增加更新提示，修复依赖问题"
+		]
+	},
+	"variables": {                   
+		"testInt": 1000,
+		"testString": "abcde",
+		"testArray": [
+			1,
+			2,
+			3
+		]
+	},
+	"welcomeMessage": ["", 
+        {            
+		"text": "欢迎游玩《交界点》",
+		"color": "gold"
+	    }, 
+        {
+		"text": "这个整合包还处于初期测试阶段，如果有什么问题，请联系我们！",
+		"color": "aqua"
+	    }, 
+        {
+		"text": "\n"
+	    }        
+	    ]
+}
